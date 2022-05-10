@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+  margin-left: 7vw;
+}
+
+body {
+  background-color: #000000;
+}
+
+main{
+background-color: white;
+box-sizing: border-box;
+border-right: 3px solid black;
+float: left;
+width: 90%;
+padding-bottom: 100px;
+}
+
+main div { 
+width: 1080px; 
+margin: auto; 
+height: auto;
+}
+
+aside{
+float: right;
+width: 10%;
+line-height: 30px;
+height: 100%;
+color: white;
+}
+
+#formulario
+{
+position: relative;
+left: 12%;
+}
+
+#titulo
+{
+text-align: left;
+margin-left: 0%;
+}
+
+#botao
+{
+margin-left: 10%;
+}
+
+li {
+  list-style-type: none;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.tabela {
+    position: relative;
+    top: 100px;
+    left: 0px;
+}
+
+.cabecalho {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.linha {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
