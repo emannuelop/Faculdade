@@ -18,6 +18,10 @@
     padding: 0px;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     background-color: var(--cor0);
     font-family: var(--font-padrao);
@@ -48,7 +52,6 @@ nav > a {
     color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 5px;
-    text-decoration: none;
     font-weight: bold;
     transition-duration: .10s;
 }
