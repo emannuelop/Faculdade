@@ -4,8 +4,8 @@
 
 :root {
     --cor0: rgb(215, 217, 217);
-    --cor1: rgb(74, 134, 71);
-    --cor2: rgb(6, 100, 3);
+    --cor1: rgb(167, 14, 14);
+    --cor2: rgb(121, 3, 3);
     --cor3: rgb(166, 94, 68);
     --cor4: rgb(89, 44, 28);
     --cor5: ;
@@ -44,7 +44,7 @@ header > h1 {
 }
 
 nav {
-    background-color: var(--cor4);
+    background-color: var(--cor2);
     padding: 10px;
 }
 
@@ -63,4 +63,8 @@ main {
     padding: 20px;
     background-color: white;
     border-radius: 10px;
+}
+
+main > h2 {
+    font-size: 1.3em;
 }
