@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
-    --cor0: rgb(215, 217, 217);
+    --cor0: #cfe3eed8;
     --cor1: #0086c46c;
     --cor2: #0473a7;
     --cor3: #005f8b;
@@ -87,6 +87,14 @@ aside {
     margin-bottom: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281)
+}
+
+aside > h2 {
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
 }
 
 aside > blockquote.um {
