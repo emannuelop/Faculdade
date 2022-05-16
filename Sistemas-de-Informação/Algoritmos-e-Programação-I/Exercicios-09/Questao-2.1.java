@@ -12,7 +12,7 @@ public class Main
         Scanner leitor = new Scanner(System.in);
         pessoas[] vet;  
             
-            int menordeidade=0;
+            int menordeidade=0, mesEscolha, anoEscolha;
             
             vet = new pessoas[3];
             
@@ -43,33 +43,27 @@ public class Main
                 menordeidade++;
             }
             
-            if (vet[0].ano == vet[1].ano && vet[0].ano == vet[2].ano)
-                System.out.print("\n" + vet[0].nome + " , " + vet[1].nome + " e " + vet[2].nome + " são do mesmo ano");
+            System.out.print("Escolha um mês: ");
+            mesEscolha = leitor.nextInt();
             
-            else if (vet[0].ano == vet[1].ano)
-                System.out.print("\n" + vet[0].nome + " e " + vet[1].nome + " são do mesmo ano");
-
-            else if (vet[0].ano == vet[2].ano)
-                System.out.print("\n" + vet[0].nome + " e " + vet[2].nome + " são do mesmo ano");
-                
-            else if (vet[1].ano == vet[2].ano)
-                System.out.print("\n" + vet[1].nome + " e " + vet[2].nome + " são do mesmo ano");
-                
+            System.out.print("Escolha um ano: ");
+            anoEscolha = leitor.nextInt();
             
-            if (vet[0].mes == vet[1].mes && vet[0].mes == vet[2].mes)
-                System.out.print("\n" + vet[0].nome + " , " + vet[1].nome + " e " + vet[2].nome + " são do mesmo mês");
             
-            else if (vet[0].mes == vet[1].mes)
-                System.out.print("\n" + vet[0].nome + " e " + vet[1].nome + " são do mesmo mês");
-
-            else if (vet[0].mes == vet[2].mes)
-                System.out.print("\n" + vet[0].nome + " e " + vet[2].nome + " são do mesmo mês");
-                
-            else if (vet[1].mes == vet[2].mes)
-                System.out.print("\n" + vet[1].nome + " e " + vet[2].nome + " são do mesmo mês");
-                
+            for(int i=0; i<3; i++) {
+                if (mesEscolha == vet[i].mes) {
+                System.out.print(" | " + vet[i].nome + " | ");
+                }
+            }
+            
+            for(int i=0; i<3; i++) {
+                if (anoEscolha == vet[i].ano) {
+                System.out.print("\n | " + vet[i].nome + " | ");
+                }
+            }
             
             System.out.print("\nTem " + menordeidade + " pessoas menores de idade");
 	}
 }
+
 
