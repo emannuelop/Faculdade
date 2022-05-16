@@ -69,16 +69,19 @@ main h2 {
     font-size: 2em;
 }
 
-main h3 {
-    font-size: 1.5em;
-    padding-top: 10px;
-}
-
 main p {
     margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
     font-size: 1em;
+}
+
+article > h3 {
+    font-size: 1.5em;
+    padding-top: 10px;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
+    border-radius: 10px;
 }
 
 aside {
