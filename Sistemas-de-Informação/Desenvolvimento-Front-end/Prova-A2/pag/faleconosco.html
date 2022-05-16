@@ -20,6 +20,26 @@
         <a href="sobrenos.html">Sobre Nós</a>
         <a href="faleconosco.html">Fale Conosco</a>
     </nav>
+    <h1>Formulário</h1>
+
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome">Nome:</label>
+            <input id="nome" name="nome" placeholder="Insira seu nome" required autofocus>
+            <label for="e-mail">E-mail:</label>
+            <input id="e-mail" name="e-mail" placeholder="Insira seu E-mail" required> </fieldset>
+        <fieldset>
+            <legend>Assunto:</legend>
+            <label>Consultoria:<input type="radio" name="assunto" value="consultoria"></label>
+            <label>Blog:<input type="radio" name="assunto" value="blog"></label>
+            <label>Outro:<input type="radio" name="assunto" value="outro"></label>
+            <label for="msg">Mensagem:</label>
+            <textarea name="msg" id="Mensagem" cols="30" rows="6"></textarea>
+            <button type="submit">Enviar <strong> Documento</strong></button> <br>
+        </fieldset>
+
+    </form>
     <footer>
         <p>Desenvolvido por <a href="https://www.instagram.com/danilo_silva_pires/" target="_blank">Danilo Da Silva</a> e <a href="https://www.instagram.com/emannuel.op/" target="_blank">Emannuel Oliveira</a> na disciplina de Desenvolvimento Front-End – 14/05/2022</p>
     </footer>
