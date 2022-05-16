@@ -4,11 +4,11 @@
 
 :root {
     --cor0: rgb(215, 217, 217);
-    --cor1: #e18383;
-    --cor2: #dc3d3d;
-    --cor3: #a82f2f;
-    --cor4: #5c1a1a;
-    --cor5: #3d0606;
+    --cor1: #0086c46c;
+    --cor2: #0473a7;
+    --cor3: #005f8b;
+    --cor4: #01415f;
+    --cor5: #002a3d;
 
     --font-padrao: 'Roboto';
 }
