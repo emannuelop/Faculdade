@@ -76,6 +76,23 @@ main p {
     font-size: 1em;
 }
 
+div.video {
+    background-color: var(--cor5);
+    margin: 0px -5px 15px -5px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+    border-radius: 10px;
+}
+
+div.video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
 article > h3 {
     font-size: 1.5em;
     padding-top: 10px;
