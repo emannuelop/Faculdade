@@ -101,6 +101,13 @@ article > h3 {
     border-radius: 10px;
 }
 
+article  img {
+    width: 150px;
+    height: 150px;
+    padding: 0px 15px 0px 0px;
+    float: left;
+}
+
 aside {
     background-color: var(--cor1);
     padding: 10px;
