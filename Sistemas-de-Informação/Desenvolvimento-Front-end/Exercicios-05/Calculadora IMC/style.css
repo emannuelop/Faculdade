@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+}
+
+tr.Linha1 {
+    background-color: rgb(206, 205, 205);
+    font-weight: bold
+}
+
+td {
+    border: 1px solid black;
+    padding: 7px;
+}
