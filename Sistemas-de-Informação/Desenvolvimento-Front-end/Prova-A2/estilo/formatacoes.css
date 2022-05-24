@@ -76,7 +76,65 @@ main p {
     font-size: 1em;
 }
 
-div.video {
+.carrossel1 {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.carrossel2 {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.carrossel2 input {
+    display: none;
+}
+
+.img {
+    width: 25%;
+    position: relative;
+}
+
+.img img {
+    width: 800px;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: white;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+.video {
     background-color: var(--cor5);
     margin: 0px -5px 15px -5px;
     padding: 20px;
@@ -85,7 +143,7 @@ div.video {
     border-radius: 10px;
 }
 
-div.video iframe {
+.video iframe {
     position: absolute;
     top: 5%;
     left: 5%;
@@ -101,7 +159,7 @@ article > h3 {
     border-radius: 10px;
 }
 
-article  img {
+article > img {
     width: 150px;
     height: 150px;
     padding: 15px 15px 0px 0px;
