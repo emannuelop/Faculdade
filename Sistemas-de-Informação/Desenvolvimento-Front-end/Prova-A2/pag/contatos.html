@@ -30,12 +30,44 @@
             <label for="nome">Nome:</label>
             <input id="nome" name="nome" placeholder="Insira seu nome" required autofocus>
             <label for="e-mail">E-mail:</label>
-            <input id="e-mail" name="e-mail" placeholder="Insira seu E-mail" required> </fieldset>
+            <input id="e-mail" name="e-mail" placeholder="Insira seu E-mail" required>
+            <label for="Telefone">Telefone:</label>
+            <input id="telefone" name="telefone" required placeholder="(xx) xxxxx-xxxx">
+            <label for="Idade">Idade:</label>
+            <input type="number" name="idade">
+            <br> <br>
+            <label for="Sexo">Sexo:</label>
+            <input type="radio" name="Sexo" value="Masculino">Masculino</label>
+            <input type="radio" name="Sexo" value="Feminino">Feminino</label>
+            <br> <br>
+            <label for="Estado">Estado:</label>
+            <select>
+                <option>Tocantins</option>
+                <option>São Paulo</option>
+                <option>Rio de Janeiro</option>
+                <option>Paraná</option>
+                <option>Rio Grande do Sul</option>
+                <option>Ceará</option>
+                <option>Acre</option>
+            </select>
+            <label for="Cidade">Cidade:</label>
+            <select>
+                <option>Palmas</option>
+                <option>São Paulo</option>
+                <option>Rio de Janeiro</option>
+                <option>Curitiba</option>
+                <option>Porto Alegre</option>
+                <option>Rio Branco</option>
+            </select>
+        </fieldset>
         <fieldset>
             <legend>Assunto:</legend>
-            <label>Consultoria:<input type="radio" name="assunto" value="consultoria"></label>
-            <label>Blog:<input type="radio" name="assunto" value="blog"></label>
-            <label>Outro:<input type="radio" name="assunto" value="outro"></label>
+            <label>Consultoria:
+            <input type="radio" name="assunto" value="consultoria"></label>
+            <label>Blog:
+            <input type="radio" name="assunto" value="blog"></label>
+            <label>Outro:
+            <input type="radio" name="assunto" value="outro"></label>
             <label for="msg">Mensagem:</label>
             <textarea name="msg" id="Mensagem" cols="30" rows="6"></textarea>
             <button type="submit">Enviar <strong> Documento</strong></button> <br>
