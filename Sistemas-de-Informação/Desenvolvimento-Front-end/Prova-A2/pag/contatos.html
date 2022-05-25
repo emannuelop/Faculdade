@@ -61,16 +61,18 @@
             </select>
         </fieldset>
         <fieldset>
-            <legend>Assunto:</legend>
-            <label>Consultoria:
-            <input type="radio" name="assunto" value="consultoria"></label>
-            <label>Blog:
-            <input type="radio" name="assunto" value="blog"></label>
-            <label>Outro:
-            <input type="radio" name="assunto" value="outro"></label>
-            <label for="msg">Mensagem:</label>
-            <textarea name="msg" id="Mensagem" cols="30" rows="6"></textarea>
-            <button type="submit">Enviar <strong> Documento</strong></button> <br>
+            <legend>Informações:</legend>
+            <label for="Motivo do Contato">Motivo do Contato:</label>
+            <select>
+                <option>Dúvida</option>
+                <option>Elogio</option>
+                <option>Outro</option>
+            </select>
+            <br> <br>
+            <legend>Área de Texto:</legend>
+            <textarea name="msg" id="Mensagem" cols="50" rows="5"></textarea>
+            <br>
+            <button type="submit"><strong>Enviar</strong></button>
         </fieldset>
     </form>
     </main>
