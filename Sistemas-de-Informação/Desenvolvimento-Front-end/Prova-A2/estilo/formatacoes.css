@@ -106,9 +106,14 @@ article > h3 {
 }
 
 article > img {
+    background-color: var(--cor5);
+    margin: 10px 30px 10px 0px;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
     width: 150px;
     height: 150px;
-    padding: 15px 15px 0px 0px;
+    padding: 15px 15px 15px 15px;
     float: left;
 }
 
