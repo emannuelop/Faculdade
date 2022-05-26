@@ -186,6 +186,10 @@ footer a:hover {
     width: 800px;
     height: 400px;
     overflow: hidden;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 .slides {
@@ -206,6 +210,11 @@ footer a:hover {
 
 .slide img {
     width: 800px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 .manual-navigation {
@@ -283,5 +292,4 @@ footer a:hover {
 #radio4:checked ~ .navigation-auto .auto-btn4 {
     background-color: white;
 }
-
 /*Fim do carrossel*/
