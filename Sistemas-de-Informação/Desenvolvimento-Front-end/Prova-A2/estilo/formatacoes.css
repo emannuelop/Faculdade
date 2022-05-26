@@ -80,7 +80,7 @@ main p {
     font-size: 1em;
 }
 
-/* Início do vídeo*/
+/*Início do vídeo*/
 
 .video {
     background-color: var(--cor5);
@@ -99,7 +99,7 @@ main p {
     height: 90%;
 }
 
-/* Fim do vídeos*/
+/*Fim do vídeos*/
 
 article > h3 {
     font-size: 1.5em;
@@ -169,6 +169,8 @@ footer a:hover {
     text-decoration: underline;
     color: var(--cor1);
 }
+
+/*Início do carrossel*/
 
 .slider {
     margin: 0 auto;
@@ -272,3 +274,5 @@ footer a:hover {
 #radio4:checked ~ .navigation-auto .auto-btn4 {
     background-color: white;
 }
+
+/*Fim do carrossel*/
