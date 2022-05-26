@@ -107,6 +107,7 @@ article > h3 {
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
     border-radius: 10px;
+    margin-top: 15px;
 }
 
 article > img {
@@ -125,7 +126,9 @@ aside {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281)
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 aside > h2 {
