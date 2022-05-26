@@ -223,14 +223,14 @@ footer a:hover {
     margin-top: -40px;
     display: flex;
     justify-content: center;
-    top: 95%;
+    top: 103%;
     left: 4%;
     width: 95%;
     height: 2%;
 }
 
 .manual-btn {
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -242,7 +242,7 @@ footer a:hover {
 }
 
 .manual-btn:hover {
-    background-color: white;
+    background-color: rgb(0, 0, 0);
 }
 
 #radio1:checked ~ .first {
