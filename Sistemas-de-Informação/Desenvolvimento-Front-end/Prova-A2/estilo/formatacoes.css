@@ -268,36 +268,4 @@ footer a:hover {
     cursor: pointer;
     transition: 1s;
 }
-
-.navigation-auto {
-    position: absolute;
-    width: 800px;
-    margin-top: 360px;
-    display: flex;
-    justify-content: center;
-    top: 4%;
-    left: 4%;
-    width: 95%;
-    height: 2%;
-}
-
-.navigation-auto div:not(:last-child) {
-    margin-right: 40px;
-}
-
-#radio1:checked ~ .navigation-auto .auto-btn1 {
-    background-color: white;
-}
-
-#radio2:checked ~ .navigation-auto .auto-btn2 {
-    background-color: white;
-}
-
-#radio3:checked ~ .navigation-auto .auto-btn3 {
-    background-color: white;
-}
-
-#radio4:checked ~ .navigation-auto .auto-btn4 {
-    background-color: white;
-}
 /*Fim do carrossel*/
