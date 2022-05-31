@@ -56,6 +56,12 @@ nav > a {
     color: rgb(255, 255, 255);
     padding: 10px;
     font-weight: bold;
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    background-color: var(--cor0);
+    color: var(--cor5);
 }
 
 main {
