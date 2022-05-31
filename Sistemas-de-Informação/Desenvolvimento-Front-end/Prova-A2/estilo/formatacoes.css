@@ -44,7 +44,7 @@ header > h1 {
 }
 
 header > img {
-    border-radius: 80px;
+    border-radius: 50%;
 }
 
 nav {
@@ -158,6 +158,8 @@ aside > blockquote.dois {
     border-radius: 10px;
 }
 
+/*Início do Rodapé*/
+
 footer {
     background-color: var(--cor5);
     color: white;
@@ -173,6 +175,8 @@ footer > p > a {
     font-weight: bolder;
     text-decoration: none;
 }
+
+/*Fim do Rodapé*/
 
 footer a:hover {
     text-decoration: underline;
